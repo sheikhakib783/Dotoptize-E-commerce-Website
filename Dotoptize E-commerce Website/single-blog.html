@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dotoptimize</title>
+    <link rel="stylesheet" href="css/progressBar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto+Condensed:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    
+<!-- ================================= 
+        Header part Start
+====================================-->
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <p><a href="#"><i class="fa-solid fa-location-dot"></i>Dhanmondi, Dhaka, Bangladesh</a></p>
+                <p><a href="mailto:gyan@gmail.com"><i class="fas fa-envelope"></i>support@dotoptimize.com
+                </a></p>
+            </div>
+            <div class="ps-5 col-lg-2 ">
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <div class="header_btn">
+                    <a href="#" class="btn btn"><i class="fa-solid fa-briefcase"></i> Free Consulting</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- ================================
+        Navbar Part Start
+===================================-->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logos-.png" width="180px"  class="d-block img-fluid" alt="logo">
+      </a>
+        <!-- ========Toggle Nave Button ==========-->
+        <button class="btn btn-primary hidden-bar" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-nav" aria-controls="offcanvasRight"><a href="#"><i class="fa-solid fa-bars"></i></a></button>
+       
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-nav" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logos-.png" width="130px"  class="d-block img-fluid" alt="logo">
+                </a>
+                <i class="fa-solid fa-xmark  sidebar-btn" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+            </div>
+            <div class="nav-body">
+                <form action="">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="" placeholder="Enter Keyword">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </div>
+                </form>
+                <div class="sidebar-nav">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="service.html">Service</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="project.html">Project</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="product.html">Our Product</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="blog.html">Blog</a></li>
+                        <li style="border-bottom: 1px solid #ddd;" class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav_social_icon">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="about.html">About Us</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="service.html">Service</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="project.html">Project</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="product.html">Our Product</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a></li>
+          </ul>
+        <div class="navbar_content">
+                <div class="nav_icon">
+                <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="content">
+                    <span>Hot Line Number</span>
+                    <a href="#">+88001711-734197</a>
+                </div>
+        </div>
+        <div class="content_main d-flex">
+      
+            <!-- ========Toggle Top==========-->
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"> <a href="#"><i class="fas fa-search"></i></a></button>
+       
+               <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+               <div class="offcanvas-header">
+                   <h5 class="offcanvas-title" id="offcanvasTopLabel"></h5>
+                   <i class="fa-solid fa-xmark top-btn" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+               </div>
+               <div class="search-wrap text-center">
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-lg-12">
+                               <h2 class="search-title">Search</h2>
+                               <div class="search-form">
+                                   <form action="https://dotoptimize.com/search">
+                                       <input name="q" type="text" placeholder="Enter keyword">
+                                       <button class="search-btn" type="submit"><i class="fas fa-search"></i></button>
+                                   </form>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               </div>
+            <!-- ========Toggle Right==========-->
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">   <a href="#"><i class="fa-solid fa-bars-staggered"></i></a></button>
+       
+               <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+               <div class="offcanvas-header">
+                   <h5 class="offcanvas-title" id="offcanvasRightLabel"></h5>
+                   <i class="fa-solid fa-xmark  sidebar-btn" data-bs-dismiss="offcanvas" aria-label="Close"></i>
+               </div>
+               <div class="offcanvas-body">
+                   <div class="sidebar-logo">
+                           <img src="images/logos-.png" width="150px" alt="logo">
+                           <hr>
+                   </div>
+                       <div class="sidebar-contact-list">
+                               <h4>Office Address</h4>
+                               <p>Dhanmondi, Dhaka, Bangladesh</p>
+                       </div>
+                       <div class="sidebar-contact-list">
+                       <h4>Phone Number</h4>
+                       <ul>
+                           <li><a href="#">+88 01711-734197</a></li>
+                           <li><a href="#">+88 01712-826659</a></li>
+                       </ul>
+                       </div>
+                       <div class="sidebar-contact-list">
+                           <h4>E-mail Address</h4>
+                           <ul>
+                               <li><a href="#">Info@Dotoptimize.Com</a></li>
+                               <li><a href="#">Support@Dotoptimize.Com</a></li>
+                           </ul>
+                       </div>
+                       <div class="sidebar-gallery-img">
+                           <ul>
+                               <li class="gallery" ><a href="#"><img src="images/sidebar-img-01.png" width="100px" alt="sidebar-img-01"></a></li>
+                               <li class="gallery" ><a href="#"><img src="images/sidebar-img-02.png" width="100px" alt="sidebar-img-02"></a></li>
+                               <li class="gallery" ><a href="#"><img src="images/sidebar-img-03.png" width="100px" alt="sidebar-img-03"></a></li>
+                               <li class="gallery" ><a href="#"><img src="images/sidebar-img-01.png" width="100px" alt="sidebar-img-01"></a></li>
+                           </ul>
+                       </div>
+                       <div class="sidebar-contact-list">
+                           <h4>E-mail Address</h4>
+                           <ul class="social-icon">
+                               <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                               <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                               <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                           </ul>
+                       </div>
+               </div>
+               </div>
+             </div>
+      </div>
+   </div>
+</nav>
+
+
+
+
+<!-- =================================
+    Banner Part Start 
+======================================-->
+<section id="banner_two">
+    <div class="shap_img">
+        <img class="first_shap" src="images/breadcrumb-shape01.png" alt="">
+        <img class="second_shap" src="images/breadcrumb-shape02.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <div class="breadcrumb">
+                    <h2>Details of Software Development</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ==============================
+    Blog Details Page
+====================================-->
+<section id="blog-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog-details-img">
+                    <img src="images/untitled-1.png" class="w-100 img-fluid" alt="">
+                </div>
+                <div class="blog-details-content">
+                    <ul>
+                        <li><i class="far fa-calendar"></i>Oct 05, 2023 </li>
+                        <li><img src="images/blog-footer-01.jpg" alt=""> by Rosalina William </li>
+                        <li>
+                            <i class="fas fa-tags"></i>
+                            <a href="#">logo,</a>
+                            <a href="#">software</a>
+                        </li>
+                    </ul>
+                    <p>Software Development Is The Process Of Designing, Creating, Testing, And Maintaining Computer Programs And Applications. It Encompasses A Wide Range Of Activities That Transform Ideas And Concepts Into Functional Software Products. Software Development Is A Critical Component Of The Digital Age, Enabling Everything From Mobile Apps And Websites To Complex Enterprise Software And Artificial Intelligence Systems. It Plays A Pivotal Role In Shaping Modern Technology And Improving Various Aspects Of Our Lives.</p>
+                    
+                    <p><strong>Details Of Software Development:</strong>Software Development Involves A Structured And Systematic Approach To Building Software. Here Are Some Key Aspects And Details Of Software Development:</p>
+
+                    <p><strong>Programming Languages:</strong> Developers Use Programming Languages (E.G., Python, Java, JavaScript, C++) To Write The Code That Makes Up Software. Each Language Has Its Own Syntax And Capabilities, And Developers Choose The One Most Suitable For Their Project.</p>
+
+                    <p><strong>Development Life Cycle:</strong> The Software Development Life Cycle (SDLC) Is A Series Of Phases That Guide The Development Process. Common SDLC Models Include Waterfall, Agile, Scrum, And DevOps, Each With Its Own Approach To Planning, Coding, Testing, And Deployment.</p>
+
+                    <p><strong>Requirements Analysis:</strong> This Phase Involves Gathering And Defining The Project's Requirements. Developers Work Closely With Stakeholders To Understand What The Software Should Do, Its Features, And User Expectations.</p>
+
+                    <p><strong>Design:</strong> During The Design Phase, Developers Create The Architectural And Technical Blueprints For The Software. This Includes Defining The Software's Structure, Database Design, User Interfaces, And Overall System Architecture.</p>
+                    <p><strong>Coding: </strong>In The Coding Phase, Developers Write The Actual Source Code Based On The Design Specifications. This Is Where The Software Takes Shape, And The Logic To Achieve Its Functionality Is Implemented.</p>
+
+                    <p><strong>Testing:</strong> Testing Is A Crucial Phase In Software Development. Quality Assurance Engineers Test The Software For Bugs, Errors, And Functionality Issues. Various Testing Methods, Such As Unit Testing, Integration Testing, And User Acceptance Testing, Are Used To Ensure The Software's Reliability.</p>
+
+                    <p><strong>Debugging:</strong> Debugging Involves Identifying And Fixing Issues And Errors In The Code. Developers Use Debugging Tools To Trace And Rectify Problems That May Arise During Testing Or Later In Production.</p>
+                    <p><strong>Deployment:</strong> Once The Software Is Thoroughly Tested And Debugged, It Is Deployed To A Production Environment, Making It Accessible To Users. This May Involve Server Setup, Database Configuration, And Other Deployment Processes.</p>
+                    <p><strong>Maintenance And Updates:</strong> After Deployment, Software Requires Ongoing Maintenance And Updates To Address Issues, Add New Features, And Keep It Compatible With Evolving Technologies And Security Threats.</p>
+                    <p><strong>Version Control:</strong> Developers Use Version Control Systems Like Git To Manage Changes To The Codebase. This Helps Track Revisions, Collaborate With Team Members, And Maintain Code Integrity.</p>
+                    <p><strong>Security: </strong>Security Is A Critical Concern In Software Development. Developers Implement Security Measures To Protect Against Vulnerabilities, Data Breaches, And Unauthorized Access.</p>
+                    <p><strong>User Experience (UX) And User Interface (UI) Design:</strong> In Addition To Functionality, Software Developers Consider The User Experience And User Interface Design To Ensure That The Software Is User-Friendly And Visually Appealing.</p>
+                    <p><strong>Project Management:</strong> Project Managers Play A Key Role In Software Development By Overseeing Timelines, Budgets, And Resources To Ensure Projects Are Completed Successfully.</p>
+                    <p><strong>Documentation:</strong>Comprehensive Documentation Is Essential For Developers And End-Users To Understand The Software's Functionality, Usage, And Maintenance Requirements.</p>
+
+                    <p>Software Development Is A Collaborative Process That Involves A Diverse Set Of Skills, Including Coding, Problem-Solving, Communication, And Project Management. It Is A Dynamic Field That Continues To Evolve With Advances In Technology, And It Plays A Vital Role In Driving Innovation And Solving Real-World Problems In Virtually Every Industry.</p>
+        
+                    <div class="bottom-content">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6">
+                                <div class="post-tags">
+                                    <h5>Tags :</h5>
+                                    <ul>
+                                        <li><a href="#">logo</a></li>
+                                        <li><a href="#">Software</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="blog-post-share">
+                                    <h5>Share:</h5>
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"></a><i class="fa-brands fa-twitter"></i></li>
+                                        <li><a href="#"></a><i class="fa-brands fa-linkedin-in"></i></li>
+                                        <li><a href="#"></a><i class="fa-brands fa-pinterest-p"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="search_bar">
+                    <form action="" method="">
+                        <input type="text" class="form-control" name="" placeholder="Enter Keyword" id="">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="blog_left_content">
+                    <div class="category">
+                        <div class="blog_title">
+                            <h3>Category</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#"> Digital Marketing <span>1</span></a></li>
+                            <li><a href="#"> Search Engine Optimization (SEO)  <span>1</span></a></li>
+                            <li><a href="#"> Graphic Design <span>1</span></a></li>
+                            <li><a href="#"> Web Design <span>1</span></a></li>
+                            <li><a href="#"> Web Development<span>1</span></a></li>
+                            <li><a href="#">Software Development <span>1</span></a></li>
+                            <li><a href="#"> Logo Design <span>1</span></a></li>
+                            <li><a href="#"> Mobile Apps Design & Development <span>1</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="recent_pst_section">
+                        <div class="blog_title">
+                            <h3>Recent Post</h3>
+                        </div>
+                        <div class="post_item">
+                            <div class="thumb">
+                                <a href="#"><img src="images/recent_post-150x150.png" alt=""></a>
+                            </div>
+                            <div class="content">
+                                <span class="date"><i class="far fa-calendar"></i>Oct 05, 2023</span>
+                                <h2>
+                                    <a href="#">Details of Software Development</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="post_item">
+                            <div class="thumb">
+                                <a href="#"><img src="images/recent-post-02-150x150.png" alt=""></a>
+                            </div>
+                            <div class="content">
+                                <span class="date"><i class="far fa-calendar"></i>Oct 05, 2023</span>
+                                <h2>
+                                    <a href="#">Details of Software Development</a>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="post_item">
+                            <div class="thumb">
+                                <a href="#"><img src="images/recent-posrt-03-150x150.png" alt=""></a>
+                            </div>
+                            <div class="content">
+                                <span class="date"><i class="far fa-calendar"></i>Oct 05, 2023</span>
+                                <h2>
+                                    <a href="#">Details of Software Development</a>
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tags">
+                        <div class="blog_title">
+                            <h3>Tags</h3>
+                        </div>
+                        <ul>
+                            <li><a href="#">logo</a></li>
+                            <li><a href="#">SEO</a></li>
+                            <li><a href="#">Search Engine Optimization</a></li>
+                            <li><a href="#">software</a></li>
+                            <li><a href="#">Strategy</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Finance</a></li>
+                            <li><a href="#">Management</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ==============================
+    Footer Section Part 
+====================================-->
+<section id="footer_part">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="footer-widget">
+                   <h4 class="footer_title">Information</h4>
+                   <div class="footer_logo">
+                        <a href="#"><img src="" alt="logo"></a>
+                   </div>
+                   <div class="footer_info">
+                        <p>Add a site information to your widget area.</p>\
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>Dhanmondi, Dhaka, Bangladesh</li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="tel:+88 01711-734197" dir="ltr">+88 01711-734197</a></li>
+                            <li><i class="fa-regular fa-clock"></i>Mon – Sat: 8 Am – 11 Pm,
+                                Sunday: CLOSED</li>
+                        </ul>
+                   </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="footer-widget">
+                    <h4 class="footer_title">Menu</h4>
+                    <div class="footer-link">
+                        <ul class="list-wrap">
+                            <li><a href="#"> Company </a></li>
+                            <li><a href="#"> Careers </a></li>
+                            <li><a href="#"> Press Media </a></li>
+                            <li><a href="#"> Our Blog </a></li>
+                            <li><a href="#"> Privacy Policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="footer-widget">
+                    <h4 class="footer_title">Quick Links</h4>
+                    <div class="footer-link">
+                        <ul class="list-wrap">
+                            <li><a href="#"> Company </a></li>
+                            <li><a href="#"> Careers </a></li>
+                            <li><a href="#"> Press Media </a></li>
+                            <li><a href="#"> Our Blog </a></li>
+                            <li><a href="#"> Privacy Policy </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="footer-widget">
+                    <h4 class="footer_title">Our Newsletters</h4>
+                    <p class="newsletter">Add A Newsletter To Your Widget Area.</p>
+                    <form action="">
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="Enter Your E-mail" name="" id="">
+                            <button type="submit" class="btn">Subscribe</button>
+                        </div>
+                    </form>
+                    <div class="footer_social_icon">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright-text text-center">
+                        <p>© 2023 Dot Optimize. All right reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/counterup.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/noframework.waypoints.min.js"></script>
+    <script src="js/progressBar.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
